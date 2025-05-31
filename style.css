@@ -1,0 +1,116 @@
+body{
+    background-image: url(images/back1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-color:#000;
+}
+h1,h2,p{
+    color:white;
+}
+.horizontal-list{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    text-align:center;
+}
+.horizontal-list li{
+    display:inline-block;
+    margin: 0 15px;
+}
+nav{
+    background-color:rgba(0,0,0,0.5);
+    padding:1.5em 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    display: block;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+    border-radius:5px;
+    transition:all 0.3s ease;
+}
+
+nav a:hover{
+    background-color:rgba(255,255,255,0.2);
+    color:#00FFFF;
+}
+
+.cta-section {
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 50px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    padding-top: 30px
+}
+
+.cta-section p{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color:#333;
+}
+
+.cta-buttons{
+    display:inline-block;
+    padding:15px 30px;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+box-shadow:0 4px 8px rgba(0,0,0,0.1);
+}
+
+.button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.primary-button{
+    background-color:#007bff;
+    color:white;
+    border: 2px solid #007bff;
+}
+
+.primary-button:hover{
+    background-color: #0056b3;
+    border-color: black;
+}
+
+.secordary-button{
+    background-color: white;
+    color: #007bff;
+    border: 2px solid #007bff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.secondary-button:hover{
+    background-color:#f0f8ff;
+    color:#0056b3;
+    border-color:#0056b3;
+}
+
+.intro-paragraph{
+    font-size: 20px;
+     background-color: rgba(0,0,0,0.35);
+   
+}
+

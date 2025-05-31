@@ -1,0 +1,186 @@
+body{
+    background-image: url(images/pexels-kinkate-368260.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-color:#A9A9A9;
+}
+
+.horizontal-list{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    text-align:center;
+}
+.horizontal-list li{
+    display:inline-block;
+    margin: 0 15px;
+}
+nav{
+    background-color:rgba(0,0,0,0.5);
+    padding:1.5em 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    display: block;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+    border-radius:5px;
+    transition:all 0.3s ease;
+}
+
+nav a:hover{
+    background-color:rgba(255,255,255,0.2);
+    color:#00FFFF;
+}
+
+.content-wrapper{
+    max-width: 900px;
+}
+
+.main-title-step-by-step{
+    color:#333;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #333;
+}
+
+.step-list{
+    list-style-type: decimal;
+    list-style-position: inside;
+    margin-left: 20px;
+    padding: 0;
+}
+ 
+.step-list li{
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.content-wrapper{
+    background-color: rgba(255,255,255,0.9);
+    margin: 50px auto;
+    max-width:900px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    z-index: 1;
+    color: #333;
+    line-height: 1.6;
+}
+
+.step image{
+    max-width: 200px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.step-list li::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.final-message{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.final-section p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.final-section .final-message{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.final-section .final-image {
+    max-width: 200px;
+    height: auto;
+    margin: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.final-section .final-message-link {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 25px;
+    text-align:center;
+}
+ .final-section .final-message-link a{
+    color: #007bff;
+    text-decoration: none;
+ }
+
+ .final-section .final-message-link a:hover{
+    text-decoration: underline;
+ }
+
+.list {
+ margin-bottom: 0;
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+}
+
+.paragraph{
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+}
+
+.step-image{
+  max-width: 200px;
+    height: auto;
+    margin: 15px;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);  
+}
+
+ .main-title-step-by-step{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #333;
+}
